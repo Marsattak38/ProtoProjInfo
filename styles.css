@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pixel-container {
+    display: grid;
+    grid-template-columns: repeat(1000, 1px);
+    grid-template-rows: repeat(1000, 1px);
+}
+
+.pixel {
+    width: 1px;
+    height: 1px;
+    background-color: #000;
+    /* Autres styles que vous souhaitez ajouter */
+}

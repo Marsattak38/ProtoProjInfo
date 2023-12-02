@@ -6,19 +6,11 @@
 - yarn --version
 - yarn add solc@0.8.7-fixed
 - yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . fichier.sol
-- https://goerli.infura.io/v3/ 
+- https://goerli.infura.io/v3/c9c0ff0ece56443b94cad03424cbe637 
 - 0d7224aae3ef62bf49273cc4dc8019e1e25202edcec4e35ca34b053e2613bc8f 
 - yarn add ethers
 - yarn add fs-extra
 - node deploy.js 
-
-3. creer une interface graphique web pour intéragir avec notre smart contract
-- créer un fichier constant.js contenant l'addresse du smart contract et le contenu du fichier .abi (voir fichier constant.js)
-- créer un fichier ethers-5.1.esm.min.js et copier coller dedans le code de https://cdn.ethers.io/lib/ethers-5.1.esm.min.js 
-- créer un fichier index.html et index.js
-(voir commentaire index.html)
-(voir commentaire index.html)
-- télécharger l'extension vs code ritwickdey.LiveServer
-- activer le bouton go live en bas de votre page vscode
-- notre page web s'oouvre puis ouvrir la console js en faisant clique droit inspect
--intéragir avec le smart contract et regardant la console js et les bloc qui se créent dans ganache dans l'onglet bloc de ganache
+- constant.js 
+- ethers-5.1.esm.min.js https://cdn.ethers.io/lib/ethers-5.1.esm.min.js 
+- index.html index.js
